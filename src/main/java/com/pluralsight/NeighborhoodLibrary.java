@@ -1,5 +1,6 @@
 package com.pluralsight;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class NeighborhoodLibrary {
@@ -32,5 +33,9 @@ Book[20] listOfBooks = {
 
 boolean running = true;
 
-while (running)
-
+while (running) {
+//Home Screen
+      System.out.println("1 - Show Available Books");
+      System.out.println("2 - Show Checked Out Books");
+      System.out.println("3 - Exit out of the application");
+      System.out.println("Chose option: ");
