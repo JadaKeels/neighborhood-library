@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import javax.xml.namespace.QName;
+
 public class Book {
 
     private int id;
@@ -37,6 +39,29 @@ public class Book {
     public String getCheckedOutTo() {
         return checkedOutTo;
     }
+
+    //Setters
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    //Methods
+    public void CheckedOut(String name) {
+        this.isCheckedOut = true;
+        this.checkedOutTo = name;
+    }
+
+    public void checkIn() {
+       this.isCheckedOut = false;
+               this.checkedOutTo = "";
 
 
 
