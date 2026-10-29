@@ -65,6 +65,10 @@ public class Book {
 
     @Override
     public String toString() {
-        return getId() + " | " + getisbn() + " | " getTitle() + "();
+        return "Book Id: " = id +
+                "\nTitle: " + title +
+                "\nIsbn: + isbn +
+                "nChecked Out: " + isCheckedOut +
+                "\nChecked Out To: " + checkedOutTo;
     }
 }
