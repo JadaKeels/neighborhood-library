@@ -60,8 +60,12 @@ public class Book {
     }
 
     public void checkIn() {
-       this.isCheckedOut = false;
-               this.checkedOutTo = "";
+        this.isCheckedOut = false;
+        this.checkedOutTo = "";
+    }
 
-
-
+    @Override
+    public String toString() {
+        return getId() + " | " + getisbn() + " | " getTitle() + "();
+    }
+}
