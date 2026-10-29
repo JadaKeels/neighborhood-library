@@ -6,7 +6,8 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class NeighborhoodLibrary {
-  public static void main(String[] args) {
+
+    public static void main(String[] args) {
     Scanner usesInput = new Scanner(System.in);
 
   //Inventory of 20 books
@@ -45,14 +46,8 @@ while (running) {
 //Prompt options for user
     String option = userInput.nextLine();
     System.out.println(option);
-
-public static void displayList(Book)[] books){
-    for (Book book : books) {
-        System.out.println(book.getId() + "| + book.getIsBn() + "| " + book.getTitle());
-    }
+    
                 System.out.print("Checking out a book(Y/N): ");
-    String choose = userInput.nectLine();
-     if choose.equalsIgnoreCase(Y)) {
 
 //Check out and in
 System.out.println("Checking out book 3...");

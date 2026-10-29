@@ -15,7 +15,7 @@ public class Book {
         this.isbn = isbn;
         this.title = title;
         this.isCheckedOut = isCheckedOut;
-        this.checkedOutTo = checkedOutTo
+        this.checkedOutTo = checkedOutTo;
     }
 
     // Gettors
@@ -67,7 +67,7 @@ public class Book {
     public String toString() {
         return "Book Id: " = id +
                 "\nTitle: " + title +
-                "\nIsbn: + isbn +
+                "Isbn: " + isbn +
                 "nChecked Out: " + isCheckedOut +
                 "\nChecked Out To: " + checkedOutTo;
     }
