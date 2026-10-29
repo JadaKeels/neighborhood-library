@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
@@ -8,7 +10,7 @@ public class NeighborhoodLibrary {
     Scanner usesInput = new Scanner(System.in);
 
   //Inventory of 20 books
-Book[20] listOfBooks = {
+Book[] listOfBooks = {
               new Book(1, "978-0-439-02352-8", "Hunger Games"),
               new Book(2, "978-0-439-02352-8", "Hunger Games Catching Fire"),
               new Book(3, "978-0-439-02352-8", "Hunger Games Mockingjay"),
@@ -35,7 +37,26 @@ boolean running = true;
 
 while (running) {
 //Home Screen
-      System.out.println("1 - Show Available Books");
-      System.out.println("2 - Show Checked Out Books");
-      System.out.println("3 - Exit out of the application");
-      System.out.println("Chose option: ");
+    System.out.println("1 - Show Available Books");
+    System.out.println("2 - Show Checked Out Books");
+    System.out.println("3 - Exit out of the application");
+    System.out.println("Chose option: ");
+
+//Prompt options for user
+    String option = userInput.nextLine();
+    System.out.println(option);
+
+public static void displayList(Book)[] books){
+    for (Book book : books) {
+        System.out.println(book.getId() + "| + book.getIsBn() + "| " + book.getTitle());
+    }
+                System.out.print("Checking out a book(Y/N): ");
+    String choose = userInput.nectLine();
+     if choose.equalsIgnoreCase(Y)) {
+
+        }
+
+//Check in and back to home
+System.out.println("Checking out book 3...");
+Book[3].CheckOut
+System.out.println(Book[3]);
