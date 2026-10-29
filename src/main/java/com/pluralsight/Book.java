@@ -1,7 +1,6 @@
 package com.pluralsight;
 
-import javax.xml.namespace.QName;
-
+import java.util.Scanner;
 public class Book {
 
     private int id;
