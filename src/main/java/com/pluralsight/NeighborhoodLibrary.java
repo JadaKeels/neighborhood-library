@@ -54,9 +54,17 @@ public static void displayList(Book)[] books){
     String choose = userInput.nectLine();
      if choose.equalsIgnoreCase(Y)) {
 
-        }
-
-//Check in and back to home
+//Check out and in
 System.out.println("Checking out book 3...");
 Book[3].CheckOut
 System.out.println(Book[3]);
+
+            System.out.println("Checking in book 3...");
+            Book[3].CheckOut
+            System.out.println(Book[3]);
+
+//Enter name for check out
+            System.out.println("Enter your name: ");
+            String userName = userInput.nectLine();
+
+
